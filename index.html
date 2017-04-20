@@ -1,0 +1,125 @@
+<html>
+  <head>
+     <link type="text/css" rel="stylesheet" href="main.css" /> 
+   
+    <style> 
+
+    </style>
+    <title> </title>
+    <script type="text/javascript">
+    function banner(){
+        var text = confirm("Do You Really Want To Click On My Banner?");
+        return text;
+    }
+        function answer(){
+
+                var radio = document.getElementsByName("trivia");
+                var selection = false;
+                var message = "";
+
+                 for( var i = 0; i < radio.length; i++) {
+                    if(radio[i].value == "aota" && radio[i].checked == true) {
+                    selection = true;
+                } //end if statement
+            } //end for loop
+             if(selection == true) {
+                message = message + "<b><p style='color:green'>Way to go!</p></b>";
+            } else {
+                message = message + "<b><p style='color:red'>Sorry try again.</p></b>";
+            }
+                document.getElementById("response").innerHTML = message;
+
+        }
+
+    </script>
+
+
+
+
+  </head>
+  <body id="background"> 
+    <a href="http://bing.com"  onclick="return banner()" ><header> <center>Wheeler Workshop</center> </header>
+    <nav>
+        <ul id="navmenu">
+            <li class="navitem"> <a href="">Catalog</a> </li>
+            <li class="navitem"> <a class="GalleryLink" href="">Gallery</a> </li>
+            <li class="navitem"> <a href="file:///C:/Users/kcwhe/Desktop/Dillan%20Coding/New%20Website.html">New Website</a> </li>  
+        </ul>
+    </nav>
+             <h1>Dillan's Amazing PVC Bows</h1>
+    <p> PVC bows are <b>amazing!</b> They are very <u>inexpensive</u> to make, and you get a great value back from them. They are very durable and shoot very well. I love making my bows and enjoy selling and shooting them very much. 
+    	<p> So how are they made? well they are first heated up with a heat gun, until they are soft enough to smash. Then they are smashed at an angle between a 2 by 4 and another board. Then it is heated again and formed by bending it around a pan. It is also formed with the hands by squishing and moving.
+    	</p>
+
+
+         <div id="rightside">
+
+         "<iframe width="560" height="315" 
+
+             src="https://www.youtube.com/embed/CngGJNLk0BQ"
+
+             frameborder="0" allowfullscreen></iframe>"
+
+        </div>
+
+             
+        
+    		<p> I love my bows and I think you will to! Buy one today, either through the online <i>catalog</i> or call and custom order a bow.
+    	</p>
+
+    		<li> Inexpensive But Great Value </li>
+    		<li> Heated Smashed Very Durable </li>
+    		<li> I Love Them And You Will To </li>
+    		<li> Buy One today! </li>
+    	</ol>
+        
+        
+        
+    	<img src="https://lh4.googleusercontent.com/-ZR9Pm7vN-_g/AAAAAAAAAAI/AAAAAAAAAWo/p5AxhSlbInM/photo.jpg" />
+    	<img src="http://orig02.deviantart.net/f43f/f/2013/018/2/a/pvc_youth_recurve_bow_35__28____2013_2__view_1__by_backyardbowyer-d5rwslc.jpg" />
+    	<img src="http://www.homesteadnotes.com/wp-content/uploads/sites/483/2015/03/12.jpg" />
+        <img src="bro pic.jpg"/>
+        <img src="josh weird.jpg"/>
+        
+         <h1>Question about face expression<h1>
+            <p>What does my<span class ="fe" > facial expression look like? </span></p>
+            
+            <form>
+                <div id="response"></div>
+                <input type="radio" name="trivia" value="s"> Stressed <br>
+                <input type="radio" name="trivia" value="sb"> Super Mad <br>
+                <input type="radio" name="trivia" value="atc"> About to Crap <br>
+                <input type="radio" name="trivia" value="aota"> All Of The Above <br>
+                <input type="button" value="Click Here" 
+                onclick="answer()">
+            </form>
+            
+
+
+        <img src="dillan weird.jpg"/>
+    	<hr>
+    	<center> Dillan Wheeler's PVC Bows <a href="http://backyardbowyer.blogspot.com/">This is A Great Bow Making Website</a> </center>
+
+    		<p style="color:turquoise;"> I can make many different kinds of bows. Such as Recurve bows, horse bows, longbows, snakey recurve bows, and anything else I can make up. </p>
+    		<p> I love making bows So take a look at my catalog or give me a email for custom order. </p>
+
+
+            
+            <li class="listitem">Bows are totally awesome!</li>
+            <li class="listitem">I love hunting with bows!</li>
+            <li class="listitem">bows are difficult to learn but fun</li>
+            <li class="listitem">bows sweet!</li> 
+        </div>
+
+       
+            
+
+
+
+
+
+    
+
+        <footer> </footer>
+   </body>
+</html>
